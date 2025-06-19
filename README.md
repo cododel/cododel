@@ -27,7 +27,7 @@ languages:
 
 technologies:
   backend:
-    - "Node.js": [Express, Fastify] # Добавил популярные, можно убрать если нерелевантно
+    - "Node.js"
     - "Python": [Django (DRF, Channels), FastAPI, Flask, SQLAlchemy]
     - "PHP": [Laravel, WordPress (Темы, Плагины)]
   
