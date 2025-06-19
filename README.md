@@ -1,190 +1,60 @@
 ```yml
 position: Fullstack WEB разработчик
 
-основные_направления: |
-  Разработка:
-    - Создание сайтов и веб-приложений с нуля
-    - Разработка REST API и микросервисов
-    - Интеграция сторонних сервисов и API
-    - Разработка браузерных расширений
-    - Создание телеграм-ботов
+summary: |
+  Опытный Fullstack-разработчик, специализирующийся на создании веб-приложений и REST API с нуля, интеграции сторонних сервисов и оптимизации существующих проектов. Владею широким стеком технологий, включая JavaScript/TypeScript, Python, PHP и сопутствующую инфраструктуру. Занимаюсь полным циклом разработки: от проектирования архитектуры и написания кода до развертывания, администрирования серверов и настройки CI/CD.
 
-  Поддержка и оптимизация:
-    - Исправление ошибок в существующих проектах
-    - Доработка функционала
-    - Оптимизация производительности
-    - Рефакторинг кода
-    - Миграция между технологиями
+core_competencies:
+  - "Разработка fullstack-приложений, REST API и микросервисов"
+  - "Поддержка, рефакторинг и оптимизация производительности"
+  - "Проектирование и работа с базами данных (SQL, NoSQL)"
+  - "Администрирование серверов (Linux) и развертывание (DevOps)"
+  - "Контейнеризация приложений (Docker)"
+  - "Разработка браузерных расширений и Telegram-ботов"
 
-  Администрирование:
-    - Настройка и поддержка веб-серверов
-    - Развертывание приложений
-    - Настройка CI/CD
-    - Мониторинг и обеспечение безопасности
-
-  Данные:
-    - Парсинг данных
-    - Обработка и анализ информации
-    - Работа с большими объемами данных
-    - Интеграция с различными БД
-
-  Консультации и обучение:
-    - Индивидуальные консультации
-    - Аудит проектов и кода
-    - Помощь в выборе технологий
-    - Онлайн обучение
-    - Менторство
-
-языки:
-  программирования:
-    - JavaScript
-    - NodeJS (+Bun)
-    - TypeScript
+languages:
+  programming:
+    - JavaScript / TypeScript
     - Python
     - PHP
     - SQL
+    - NodeJS (+Bun)
     - Lua
+  markup_and_styles:
+    - HTML / Pug
+    - CSS / SCSS / SASS
+    - MarkDown / YAML
 
-  разметки:
-    - HTML
-    - Pug (Jade)
-    - MarkDown
-    - XML
-    - YAML
+technologies:
+  backend:
+    - "Node.js": [Express, Fastify] # Добавил популярные, можно убрать если нерелевантно
+    - "Python": [Django (DRF, Channels), FastAPI, Flask, SQLAlchemy]
+    - "PHP": [Laravel, WordPress (Темы, Плагины)]
+  
+  frontend:
+    - "JavaScript (ES6+) & TypeScript"
+    - "React": [Next.js, Remix]
+    - "Vue": [Nuxt.js, Vue 3]
+    - "Svelte": [SvelteKit]
+    - "CSS Frameworks": [TailwindCSS, Bootstrap]
+    - "Build Tools": [WebPack, Gulp]
+    - "Libraries": [JQuery, Firebase]
 
-  стилей:
-    - CSS
-    - SCSS
-    - SASS
-
-технологии:
-  php:
-    laravel:
-      - FilamentPHP
-    wordpress:
-      - Темы
-      - Плагины
-    другие:
-      - drupal 7
-      - Telegraph
-      - PhpSpreadsheet
-    другое:
-      - Самописные решения
-
-  python:
-    web_backend:
-      frameworks:
-        - Flask
-        - FastAPI
-      django:
-        - Django
-        - Django Rest Framework
-        - Django Channels
-    telegram_боты:
-      - pytelegrambotapi
-      - aiogram
-      - pyrogram
-    дополнительные:
-      - WeasyPrint
-      - Pydantic
-      - SqlAlchemy
-
-  javascript:
-    браузерные_расширения: true
-    фреймворки:
-      react:
-        - NextJS
-        - Remix
-        - MantineUI
-      svelte:
-        - SvelteKit
-        - Svelte
-      vue:
-        - NuxtJs
-        - VueJs 3
-        - Quasar
-        - ElementPlus
-        - Vuetify
-      дополнительные:
-        - directus
-        - supabase
-    библиотеки:
-      - JQuery
-      - AlpineJs
-      - PettiteVue
-      - FireBase
-      - Luxon
-      - MomentJs
-      - ES6
-    сборщики:
-      - Gulp
-      - WebPack
-
-  css_фреймворки:
-    - Bootstrap
-    - TailwindCSS
-
-инфраструктура:
-  операционные_системы:
-    - Ubuntu
-    - Debian
-    - CentOs
-    - Fedora
-    - Alpine
-    - Arch
-
-  контейнеризация:
+infrastructure_and_devops:
+  databases:
+    - PostgreSQL
+    - MySQL / MariaDB
+    - Redis
+  servers:
+    - "Web Servers": [NGINX, Apache, Caddy]
+    - "OS": [Ubuntu, Debian, CentOS, Alpine]
+  containerization:
     - Docker
     - Docker Compose
-
-  базы_данных:
-    - MySQL
-    - MariaDB
-    - PostgreSQL
-    - Redis
-
-  веб_серверы:
-    основные:
-      - Apache
-      - NGINX
-      - Caddy
-    дополнительные:
-      - NGINX-RTMP
-      - PHP-FPM
-
-  тестирование:
-    - Selenium
+  testing:
     - Playwright
-
-сервисы_и_интеграции:
-  cms_и_headless:
+    - Selenium
+  headless_cms:
     - Directus
     - Strapi
-
-  медиа_и_стриминг:
-    - Restreamer
-
-  мониторинг_и_аналитика:
-    - Grafana
-
-  управление_проектами:
-    - YouGile
-    - Toggl
-
-  хостинг_и_администрирование:
-    - FastPanel
-
-  утилиты:
-    - Kutt
-
-услуги:
-  консультации:
-    - Индивидуальные консультации по веб-разработке
-    - Помощь в выборе технологического стека
-    - Аудит существующих решений
-
-  обучение:
-    - Индивидуальные онлайн занятия
-    - Менторство
-    - Код-ревью
 ```
